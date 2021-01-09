@@ -1,0 +1,28 @@
+{
+  "name": "telegram-line-sticker-bot",
+  "version": "1.0.0",
+  "description": "A Telegram bot to transplant Line stickers.",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node main.js",
+    "lint": "eslint src/**/*.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
+  },
+  "dependencies": {
+    "jimp": "^0.9.3",
+    "node-telegram-bot-api": "^0.40.0",
+    "promise-fs": "^2.1.1",
+    "request": "^2.88.0",
+    "unzipper": "^0.10.7"
+  }
+}
